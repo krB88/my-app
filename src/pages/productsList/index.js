@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { useNavigate } from "react-router-dom"
 
 /**
- * Module representing all the data points which are available on fda.
+ * Module representing the ProductList
  * @module ProductsList
  * @return {module} ProductsList
  */
@@ -25,7 +25,7 @@ const ProductsList = () => {
     }
 
     return(
-        <section className="fda-data-points">
+        <section className="product-list">
             <div class="bg-white">
                 <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 class="sr-only">Products</h2>
@@ -45,12 +45,7 @@ const ProductsList = () => {
                     </div>
                 </div>
             </div>
-
         </section>
 );}
-    
-  
-ProductsList.propTypes = {
-};
 
 export default ProductsList;

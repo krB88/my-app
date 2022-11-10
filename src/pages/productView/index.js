@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useLocation } from "react-router-dom";
 
 /**
- * Module representing all the data points which are available on fda.
+ * Module representing the view of a singe product.
  * @module ProductView
  * @return {module} ProductView
  */
@@ -58,9 +58,5 @@ const ProductView = () =>{
     );
 
 }
-
-ProductView.propTypes = {
-  
-};
 
 export default ProductView;
